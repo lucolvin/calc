@@ -56,3 +56,7 @@ function calculate() {
 function deleteLast() {
     display.value = display.value.slice(0, -1);
 }
+
+function home() {
+    window.location.href = 'https://lukecolvin.me';
+}
